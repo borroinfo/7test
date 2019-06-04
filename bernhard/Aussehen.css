@@ -1,0 +1,78 @@
+h1{color:green; text-align:center;font-size:100px;}
+.b1 {color: green; text-align: center;}
+table, th, td {border: 8px inset maroon;}
+table {width: 100%;}
+#td1 {width: 20%;}
+.td2 {overflow-y: auto;overflow-x:hidden;font-size: 150%;}
+body {background-image: url("Holz1.jpg") ;}
+strong {font-size: 170%;}
+#f1 {font-size: 50px;}
+#h22 {font-size: 50px;}
+.rotate 	   {
+				animation: rotation 2s infinite linear;
+				}
+@keyframes rotation {
+					from {
+						transform: rotate(0deg);
+					}
+					to {
+						transform: rotate(359deg);
+					}
+					}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd
+	}
+
+.show{
+	display:block;
+	}
+.Buchen {
+  position: relative;
+  display: inline-block;
+}
+.buchenbtn:hover, .buchenbtn:focus {
+  background-color: #2980B9;
+}
+.buchenbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}

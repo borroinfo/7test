@@ -1,0 +1,12 @@
+#header {color:lightgray; font-size:100px;}
+h1 {color:lightgray; font-size:40px;}
+#Navigation{color:darkgray; font-size:25px; background-color:AntiqueWhite; width:30%;float:left;}
+#Inhalt{color:darkgray; font-size:18px; background-color:Beige;float:right;width:69%;}
+#container{width:100%}
+.text {font-family:"Helvetica", sans serif; color:darkgray;}
+body {background-image: url("wheat.png"); background-repeat:repeat;}
+
+table, th ,td {border:3px inset darkgreen;}
+table {width:100%;}
+.td1 {width:20%;}
+.Bild {width:50%;}

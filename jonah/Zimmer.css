@@ -1,0 +1,70 @@
+h1 {
+    font-size: 120px;
+    text-align: center;
+    color: white;
+    font-family: Bedrock;
+}
+
+body {
+    background-color: darkblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: Bedrock;
+  background-color: white;
+}
+
+.nav {
+  display: inline;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a {
+    margin: 5px;
+}
+
+#Zimmer { 
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: darkblue; 
+    font-size: 60px;
+    padding-left: 400px;
+}
+
+#Praes {
+    float: right;
+    height: 250px;
+    width: 400px;
+     padding-right: 400px;
+}
+
+#Doppel {
+     float: right;
+    height: 250px;
+    width: 400px;
+     padding-right: 400px;
+}
+
+#Einzel {
+     float: right;
+    height: 250px;
+    width: 400px;
+     padding-right: 400px;
+}
+
+#Schmed {
+     float: right;
+    height: 250px;
+    width: 400px;
+     padding-right: 400px;
+}

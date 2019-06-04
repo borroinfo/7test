@@ -1,0 +1,10 @@
+body {background-image: url("Belphegor.png"); background-repeat:repeat;}
+h1 {color:red;}
+
+
+#heading {color: white; background-color: black; height: 100px; text-align: center }
+
+#box { width: 80%; color: white; background-color: green; height: 800px;}
+
+p, div, table {color: white;}
+#penis {font-size:30px;}

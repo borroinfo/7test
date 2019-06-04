@@ -1,0 +1,87 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: Bedrock;
+  background-color: white;
+}
+
+.nav {
+  display: inline;
+}
+
+a:hover {
+  color: darkblue;
+}
+
+a {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    color: white;
+}
+
+body {
+    background-color: darkblue;
+}
+
+#Speisekarte { 
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+    background-color: darkblue; 
+    font-size: 50px;
+    padding-left: 300px;
+}
+
+#Pasta {
+     background-color: darkblue;
+    font-family: Bedrock;
+    font-size: 20px;
+}
+
+lh {
+     background-color: darkblue;
+    font-family: Bedrock;
+    font-size: 80px;
+    text-align: center;
+    padding-right: 300px;
+}
+
+li {
+    font-size: 50px;
+}
+
+.Pizza {
+    font-size: 40px;
+    background-color: darkblue;
+}
+
+#schnitzel {
+    height: 200px;
+    width: 350px;
+    float: right;
+    padding-right: 400px;
+    text-align: center;
+}
+
+#pizza {
+    height: 300px;
+    width: 250px;
+    float: right;
+     padding-right: 400px;
+}
+
+#pizza2 {
+    padding-right: 780px;
+}
+
+#salat {
+    padding-right: 800px;
+}

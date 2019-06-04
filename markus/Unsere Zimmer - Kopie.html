@@ -1,0 +1,79 @@
+<!--Aufgabe: 
+	1. Färbe die erste Überschrift in grün ein 
+	2. Färbe die zweite Überschrift in rot ein
+	3. Färbe den zweiten Absatz in grau ein
+-->
+
+<!-- HTML Version festlegen, ist HTML5 -->
+
+<!doctype html>
+
+<!-- beginn des Dokumentes, Sprache fest -->
+<html lang="de">
+
+<!--  -->
+<head>
+  <meta charset="utf-8">
+  <title>Navigation Top </title>
+
+</head>
+
+	<style>
+		#container {background:purple; width:800px; height:1500px; margin-left:auto; margin-right:auto; border: solid black;}
+		
+		#nav_container {height:100px; background:red; position:fixed; }
+		
+		#navigation {display:block; background:red; height:100%; width:800px;}
+		
+		#logo {font-family:"Futura", sans-serif; font-size:50px;}
+		
+		#nav_ul {display:inline;}
+		
+		#content {padding-top:100px;}
+		
+		.nav_link {display:inline-block; background-color:red; height:100px; width:80px; font-family:"Helvetica", sans-serif; color:black; text-decoration:none; position:relative; float:right; text-align:center;}
+		
+		.nav_link:hover   { background-color: black; font-color: white; }
+
+		
+		
+		
+	</style>
+
+<!--  -->
+<body>
+ 
+	
+		
+		
+	<div id= "content">
+	
+	
+
+	<h1>Hier befinden sich unsere Zimmer </h1>
+	<h2>Wir haben große und kleine Zimmer als auch standart und luxus Zimmer </h2>
+	
+	<div id="container">
+		<div id="nav_container">
+			<nav id="navigation">
+				 <h1 id="logo" style="display:inline; color:green;">Index</h1>
+                <ul id="nav_ul">
+                   <li class="nav-link"><a href="hotelseite1.html"> Startseite</a></li>
+                    <li class="nav_link"><a href="Index.html"> Index</a></li>
+					<li class="nav_link"><a href="Speisekarte.html"> Speisekarte</a></li>
+                    <li class="nav_link"><a href="Unsere Zimmer.html"> Unsere Zimmer</a></li>
+                </ul>
+
+		 </nav>
+				
+				
+			</nav>
+		</div>
+	</div>
+
+
+	</div>
+	
+</body>
+
+</html>

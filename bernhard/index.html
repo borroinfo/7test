@@ -1,0 +1,59 @@
+<!DOCTYPE html!>
+<html>
+	<head>
+		<meta charset="UTf-8">
+		<title>Hub server</title>
+		<link href="Aussehen.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th colspan="2"><h1> MIROX </h1></th>
+			</tr>
+			<tr>
+				<td	id="td1">Navigation</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="dropdown">
+						<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+
+						<div id="myDropdown" class="dropdown-content">
+						<input type="text" placeholder="Suche..." id="myInput" onkeyup="filterFunction()">
+							<a href="Junior Suit.html">Junior Suite</a>
+							<a href="Family Suit.html"> Family Suite</a>
+							<a href="Panorama Suit.html">Panorama Suite</a>
+							<a href="Speiseplan.html">Speisekarte</a>
+						</div>
+					</div>
+						<script>
+							function myFunction() {
+							document.getElementById("myDropdown").classList.toggle("show");
+									}
+
+								function filterFunction() {
+									var input, filter, ul, li, a, i;
+									input = document.getElementById("myInput");
+									filter = input.value.toUpperCase();
+									div = document.getElementById("myDropdown");
+									a = div.getElementsByTagName("a");
+									for (i = 0; i < a.length; i++) {
+										txtValue = a[i].textContent || a[i].innerText;
+										if (txtValue.toUpperCase().indexOf(filter) > -1) {
+											a[i].style.display = "";
+										} else {
+											a[i].style.display = "none";
+										}
+									}
+								}
+						</script>
+				</td>
+				<td class="td2">
+					Das Hotel <strong>Mirox</strong> ist ein Luxushoteld der <strong>extra Klasse</strong>. Unsere Zimmer sind die <strong>luxuriösesten</strong> in der Region. Wir bieten ein selbstbedienungs Frühstück inklusive einer Omletbar, bei welcher Sie zuschauen können, wie Ihr Omlet gemacht wird.<br><img src="restaurant1.jpg" width:200px
+
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html!>
+<html>
+	<head>
+		<meta charset="UTf-8">
+		<title>Junior Suit</title>
+		<link href="Aussehen.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<table>
+			<tr>
+				<th colspan="2"><h1> Family Suite </h1></th>
+			</tr>
+			<tr>
+				<td id="td1"> Navigation</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<div class="dropdown">
+						<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+
+						<div id="myDropdown" class="dropdown-content">
+						<input type="text" placeholder="Suche..." id="myInput" onkeyup="filterFunction()">
+							<a href="index.html">Haupt Seite</a>
+							<a href="junior Suit.html"> Junior  Suite</a>
+							<a href="Panorama Suit.html">Panorama Suite</a>
+							<a href="Speiseplan.html">Speisekarte</a>
+						</div>
+					</div>
+					<script>
+						function myFunction() {
+							document.getElementById("myDropdown").classList.toggle("show");
+								}
+
+							function filterFunction() {
+								var input, filter, ul, li, a, i;
+								input = document.getElementById("myInput");
+								filter = input.value.toUpperCase();
+								div = document.getElementById("myDropdown");
+								a = div.getElementsByTagName("a");
+								for (i = 0; i < a.length; i++) {
+									txtValue = a[i].textContent || a[i].innerText;
+									if (txtValue.toUpperCase().indexOf(filter) > -1) {
+										a[i].style.display = "";
+									} else {
+										a[i].style.display = "none";
+									}
+								}
+							}
+</script>
+				<br>
+					<div id="Buchen" class="Buchen">
+						<a href="FormularFamilySuit.html"><button type="button" class="buchenbtn"> Buchen</button></a>
+					
+					</div>
+				</td>
+				<td class="td2"> 
+				Die <strong>Family Suite</strong> ist mit einem preis von<strong>100€ pro Person pro Nacht</strong> unsere mittelklasse Suit welche die perfekte balance zwischen Luxus und Preis bietet sie hat eine Fläche von <strong>100m<sup>2</sup></strong>. In dem Zimmer befinden sich <strong>Standartmäßig 2 Betten</strong> man kann es allerdings auf <strong>4 Betten erwietern</strong> lassen. Sie hat ebenfalls einen Kamin , eine zwei getrennte Toilette alsauch zwei Bäder.<br><img src="Kamin2.gif">
+				</td>	
+		</table>
+	</body>
+</html>

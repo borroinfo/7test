@@ -1,0 +1,62 @@
+<!DOCTYPE html!>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title> Formular </title>
+		<style>
+			h1{font-size:2em;}
+			br{line-height:30px;}
+			body{text-align: centre;}
+		</style>
+	<body>
+		<h1>Hotelreservierung </h1>
+		<form id="form1">
+			<label> Titel</label>
+				<select name="Titel">
+					<option>Herr</option>
+					<option> Frau</option>
+					<option>Dr.</option>
+					<option>Mag</option>
+				</select>
+			</label>
+			<label for="vname">Vorname:
+				<input type="text" id="vname" name="vname" placeholder="Mustermann">
+			</label>
+			<br>
+			<label for="nname">Nachname:
+				<input type="text" id="nname" name="nname" placeholder="Max">
+			</label>
+			<br>	
+			 <label>Email: 
+				<input type="email" name="email" placeholder="max@musterman@email.com">
+			</label>
+			<br>
+			<fieldset>
+				<label>
+					<input type="checkbox" name="Früchstück"> Früchstück
+					</input>
+				</label>
+			</fieldset>
+			<label>Anreise
+				<input type="date" name="Anreise"> 
+			</label>
+			<br>
+			<label>Abreise
+				<input type="date" name="Abreise"> 
+			</label>
+			  <p>Geben Sie Ihre Zahlungsweise an:</p>
+			<fieldset>
+				<input type="radio" id="mc" name="Zahlmethode" value="Mastercard">
+					<label for="mc"> Mastercard</label> 
+				<input type="radio" id="vi" name="Zahlmethode" value="Visa">
+					<label for="vi"> Visa</label>
+				<input type="radio" id="ae" name="Zahlmethode" value="AmericanExpress">
+					<label for="ae"> American Express</label> 
+			</fieldset>
+			<p>
+				<button form="form1" type="reset">Formular 1 zurücksetzen</button>
+				<button type="submit" name="action" value="1">Absenden</button>
+			</p>
+		</form>
+	</body>
+</html>

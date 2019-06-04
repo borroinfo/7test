@@ -1,0 +1,30 @@
+<h1>Hier befinden sich unsere Zimmer </h1>
+	<h2>Wir haben große und kleine Zimmer, als auch standart und luxus Zimmer </h2>
+		 <h3> Wir geben ihnen dann gerne, nach Ankunnft bei uns im Hotel, bescheid über unsere Preise </h3>
+		 <img class="pic" src="Zimmer.png" alt="Photo of rocky ocean beach in Hawaii">
+		 
+		 
+		 
+		 <table class="tg">
+		<tr>
+  <td class="tg-031e"> <h3> Speisekarte: </h3> </td>
+  <tr>
+    <td class="tg-031e">Tartar: </td> 
+	<td> 40$ </td>
+	<tr>
+    <td class="tg-031e"> Fischrisotto:  </td>
+	<td> 30$ </td>
+	<tr>
+    <td class="tg-031e">Hendel al a Chef: </td>
+	<td> 100$ </td>
+	<tr>
+    <td class="tg-031e">Kleine Snacks für Feiern: </td>
+	<td> 100$ </td>
+	<tr>
+  
+  
+  
+  </table>
+  
+  
+  <img class="pic" src="Zimmer.png" alt="Photo of rocky ocean beach in Hawaii">

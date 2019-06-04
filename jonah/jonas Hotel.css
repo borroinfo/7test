@@ -1,0 +1,47 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+li {
+  display: inline;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    font-family: Bedrock;
+}
+
+
+body {
+  background-image: url("Hintergrund.jpg");
+  background-repeat: repeat;
+  background-size: 2000px 1000px;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+    margin: 5px;
+}
+
+p {
+    font-family: Bedrock;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#p1 {
+    font-style: bold;
+    font-size: 35px;
+    font-family: Bedrock;
+    color: darkblue;
+}
